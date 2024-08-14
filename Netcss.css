@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+padding: 0;
+margin: 0;
+}
+.main{
+    background-image:url(https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/36b5b5745645de080da183dc7e634601810bea79/Video%2053/assets/images/bg.jpg) ;
+    height: 90vh;
+    position: relative;
+    
+}
+.box{
+    background-color: black;
+    height: 90vh;
+    opacity: 0.6;
+}
+.dis{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 26px 224px;
+    
+   
+}
+.dis span img{
+    position: relative;
+    z-index: 2;
+
+}
+.h1{
+    background-color: rgba(0, 0, 0, 0.07);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 6px 39px;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.h2{
+    background-color: rgb(241, 6, 6);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 6px 19px;
+    border-radius: 3px;
+  
+    margin: 0 10px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.j{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100%;
+}
+.n1{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+}
+.n2{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+.n3{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+}
+
+.f button{
+    background-color: #fa0000;
+    color: white;
+    padding: 8px 17px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+.separation{
+    height: 12px;
+    background-color: rgb(139 143 147);
+}
+
